@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "C:\\Users\\Hauke\\Projects\\ioBroker_brightSky\\log\\iobroker-audit.json",
+    "files": [
+        {
+            "date": 1693508431430,
+            "name": "C:\\Users\\Hauke\\Projects\\ioBroker_brightSky\\log\\iobroker.2023-08-31.log",
+            "hash": "562f57a147d56d05aeecf35236ca2d78b3eda9d8cf23e0c077fd96b013451db7"
+        }
+    ],
+    "hashType": "sha256"
+}

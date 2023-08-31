@@ -1,0 +1,82 @@
+{
+    "common": {
+      "name": "yr",
+      "version": "1.0.0",
+      "news": {
+        "1.0.0": {
+          "en": "initial release",
+          "de": "initialer release",
+        }
+      },
+      "title": "brightsky",
+      "titleLang": {
+        "en": "brightsky weather",
+        "de": "brightsky Wetter"
+      },
+      "desc": {
+        "en": "Current Weather from brightsky.dev",
+        "de": "Aktuelles Wetter von brightsky.dev"
+      },
+      "authors": [
+        "fourStrings77"
+      ],
+      "license": "MIT",
+      "platform": "Javascript/Node.js",
+      "mode": "schedule",
+      "schedule": "6 * * * *",
+      "enabled": true,
+      "loglevel": "info",
+      "materialize": true,
+      "keywords": [
+        "weather",
+        "forecast",
+        "temperature",
+        "rain",
+        "brightsky.dev",
+        "meteorology"
+      ],
+      "compact": true,
+      "adminUI": {
+        "config": "json"
+      },
+      "connectionType": "",
+      "dataSource": "poll",
+      "tier": 2,
+      "icon": "yr.png",
+      "extIcon": "https://raw.githubusercontent.com/ioBroker/ioBroker.yr/master/admin/yr.png",
+      "readme": "https://github.com/ioBroker/ioBroker.yr/blob/master/README.md",
+      "allowInit": true,
+      "type": "weather",
+      "dependencies": [
+        {
+          "js-controller": ">=3.3.0"
+        }
+      ],
+      "plugins": {}
+    },
+    "protectedNative": [],
+    "encryptedNative": [],
+    "native": {
+      "latitude": "",
+      "longitude": "",
+      "altitude": "",
+      "language": "en",
+      "sendTranslations": true,
+      "compact": true
+    },
+    "objects": [],
+    "instanceObjects": [
+      {
+        "_id": "version",
+        "type": "state",
+        "common": {
+          "name": "Version",
+          "type": "string",
+          "role": "value",
+          "read": true,
+          "write": false
+        },
+        "native": {}
+      }
+    ]
+  }

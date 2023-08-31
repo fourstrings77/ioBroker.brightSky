@@ -1,0 +1,21 @@
+{
+  "name": "iobroker.brightsky",
+  "version": "1.0.0",
+  "description": "Adapter for Brightsky Weather API",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourstrings77/ioBroker.brightSky.git"
+  },
+  "author": "fourStrings77",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fourstrings77/ioBroker.brightSky/issues"
+  },
+  "homepage": "https://github.com/fourstrings77/ioBroker.brightSky#readme",
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.0.3",
+    "axios": "^1.5.0",
+    "iobroker.js-controller": "^5.0.12"
+  }
+}
