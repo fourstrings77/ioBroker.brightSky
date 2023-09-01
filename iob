@@ -1,2 +1,0 @@
-#!/usr/bin/env node
-require('/Users/haukeprivat/Projekte/ioBroker/ioBroker.brightSky/node_modules/@iobroker/js-controller-cli/build/lib/setup').execute();
