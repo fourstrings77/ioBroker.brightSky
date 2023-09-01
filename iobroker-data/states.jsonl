@@ -1,2 +1,3 @@
 {"k":"**META**","v":{"states.protocolVersion":"4"}}
 {"k":"system.host.tardis.plugins.sentry.enabled","v":{"val":true,"ack":true,"ts":1693508416525,"q":0,"from":"system.host.tardis.plugins.sentry","lc":1693508416525}}
+{"k":"system.host.CHMNB2043.local.plugins.sentry.enabled","v":{"val":true,"ack":true,"ts":1693593879212,"q":0,"from":"system.host.CHMNB2043.local.plugins.sentry","lc":1693593879212}}
