@@ -23,7 +23,7 @@
       "license": "MIT",
       "platform": "Javascript/Node.js",
       "mode": "schedule",
-      "schedule": "6 * * * *",
+      "schedule": "*/30 * * * *",
       "enabled": true,
       "loglevel": "info",
       "materialize": true,
